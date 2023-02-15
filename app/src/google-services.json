@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "872945982251",
+    "project_id": "newdweller-55560",
+    "storage_bucket": "newdweller-55560.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872945982251:android:7e03a770e1ef074df6c36e",
+        "android_client_info": {
+          "package_name": "com.example.newdweller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872945982251-3loc0tgad3ug226t5arupol8lqm43nvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYf5m-nBdpDiQ8wmnk90cWuUbfZPsU6P0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872945982251-3loc0tgad3ug226t5arupol8lqm43nvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

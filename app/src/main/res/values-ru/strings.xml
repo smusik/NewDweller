@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">NewDweller</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="email_name">Email</string>
+    <string name="pass_name">Пароль</string>
+    <string name="reg_name">Зарегестрироваться</string>
+    <string name="areg_name">Уже с нами?</string>
+    <string name="sign_name">Войти</string>
+    <string name="noreg_name">Еще не с нами?</string>
+    <string name="go_reg">Пройти регистрацию</string>
+    <string name="desc_logout">Выйти</string>
+    <string name="imager">Фото</string>
+    <string name="electro">Электричество</string>
+    <string name="tarif_pic">Тариф пик</string>
+    <string name="hello_chat_fragment">Hello chat fragment</string>
+    <string name="hello_home_fragment">Hello home fragment</string>
+    <string name="hello_order_fragment">Hello order fragment</string>
+    <string name="zhkh_name_el">Электроэнергия</string>
+    <string name="zhkh_desc_el">Описательный текст</string>
+    <string name="tarif_pic_cur">Текущие показания (пик)</string>
+    <string name="text_profile">Профиль пользователя</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="adress_name">Адрес проживания</string>
+    <string name="desc_save">Сохранить</string>
+    <string name="full_name">Полное имя</string>
+    <string name="join">Присоединяйся!</string>
+    <string name="title_post">Заголовок</string>
+    <string name="create">Создать</string>
+    <string name="date">Дата</string>
+    <string-array name="order_array">
+        <item>Вызвать мастера по сантхенике</item>
+        <item>Вызвать мастер по электрике</item>
+        <item>Вызвать специалиста по уборке</item>
+        <item>Вызвать мастера по коммуникационной технике</item>
+    </string-array>
+    <string-array name="text_for_recyclerViews">
+        <item>Тепловая энергия (отопление)</item>
+        <item>Горячее водоснабжение</item>
+        <item>Холодное водоснабжение</item>
+        <item>Водоотведение (ХВС + ГВС)</item>
+        <item>Капитальный ремонт</item>
+        <item>Домофон</item>
+    </string-array>
+    <string-array name="description">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="big_desctiption">
+        <item>Тариф с 01.12.2022г. по 31.12.2023г.</item>
+        <item>Тариф с 01.12.2022г. по 31.12.2023г.</item>
+        <item>Тариф с 01.12.2022г. по 31.12.2023г.</item>
+        <item>Тариф с 01.12.2022г. по 31.12.2023г.</item>
+        <item>Тариф с 01.12.2022г. по 31.12.2023г.</item>
+        <item>Тариф с 01.12.2022г. по 31.12.2023г.</item>
+    </string-array>
+    <string-array name="cost_v">
+        <item>2 912,53 руб/Гк.</item>
+        <item>243,16 руб/куб.мр</item>
+        <item>50,93 руб/куб.м</item>
+        <item>39,97 руб/куб.м</item>
+        <item>24.09 руб.</item>
+        <item>64,00 руб/квартира</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="order">Заявка</string>
+    <string name="create_order">Создайте новую заявку</string>
+    <string name="time">Время</string>
+    <string name="desc_order">Выберите дату, время и тип заявки</string>
+    <string name="comment">Комментарий</string>
+
+</resources>

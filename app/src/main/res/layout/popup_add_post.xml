@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/idFullname"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/back"
+        android:inputType="textPersonName"
+        android:text="@string/full_name"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/text"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059"></TextView>
+
+    <EditText
+        android:id="@+id/popup_title"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/back"
+        android:backgroundTint="@color/back"
+        android:hint="@string/title_post"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="@color/text"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idFullname"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <EditText
+        android:id="@+id/popup_description"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginBottom="519dp"
+        android:background="@color/back"
+        android:backgroundTint="@color/back"
+        android:hint="Описание"
+        android:paddingLeft="5dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/text"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/popup_title"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:background="@color/back"
+        android:id="@+id/imagePost"
+        android:layout_width="0dp"
+        android:layout_height="225dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popup_description"
+        app:layout_constraintVertical_bias="0.043"
+        tools:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/popup_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="228dp"
+        android:text="@string/create"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagePost"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/popup_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="132dp"
+        android:padding="4dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
